@@ -1,0 +1,53 @@
+.VitalsContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #fafafa;
+}
+
+
+.VitalsLineChart {
+     height:40vh;
+     width:70vw;
+}
+
+.dropdown {
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.dropdown h3 {
+    font-size: large;
+    padding-top: 0.2rem;
+    padding-bottom: 0.5rem;
+}
+
+
+.item {
+    padding-top: 0.1rem;
+    padding-top: 0.5rem;
+    width:50px;
+}
+
+.VitalsContainer {
+    flex-direction: row;
+    
+    
+}
+
+.InformationContainer{
+    margin-top: 1rem;
+   
+}
+
+.InfoBoxContainer {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    padding-top: 0.5 rem;
+    
+
+}
+
+.Infobox_cn {
+    padding-bottom: 1rem;
+    align-content: space-between;
+}

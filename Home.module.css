@@ -1,0 +1,53 @@
+.home {
+    margin: 1rem auto;
+    padding: 2rem;
+    margin-right: 20px;
+    width: 100%;
+    max-width: 120rem;
+    flex:4;
+    background-color: #FAFAFA;
+    /* background-color: #673AB7; */
+  }
+
+
+  @media screen and (max-width:990px) {
+    
+    .home__wrapper {
+       flex-direction: column;   
+    }
+
+    .home__widget_wrapper {
+        padding-bottom: 1rem;
+    }
+
+    .barchart__wrapper {
+        flex-direction: column;
+    }
+
+    .barchart {
+        width:900px;
+
+    }
+
+    .barchart_arm {
+        width:900px;
+        padding-top: 1rem;
+    }
+  }
+
+
+  .table__widget {
+      width:100px;
+      height:100px;
+      align-items:center;
+  }
+
+  .home__wrapper {
+      display: flex;
+      justify-content: space-between;    
+  }
+  
+  .barchart__wrapper {
+      display: flex;
+  }
+

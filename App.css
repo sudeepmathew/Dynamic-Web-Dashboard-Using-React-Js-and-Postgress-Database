@@ -1,0 +1,9 @@
+* {
+    margin:0;
+}
+
+.App {
+    display: flex;
+    margin-top: 10px;
+    
+}

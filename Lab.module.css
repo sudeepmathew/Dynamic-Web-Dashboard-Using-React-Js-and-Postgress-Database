@@ -1,0 +1,103 @@
+.lab_container {
+    /* margin: 1rem auto; */
+    /* padding: 2rem; */
+    margin-right: 20px;
+    width: 100%;
+    max-width: 120rem;
+    flex:4;
+    background-color: #FAFAFA;
+}
+
+ .lab_options {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fafafa;
+ }
+
+
+.Chart_Table_container {
+    display: flex;
+    margin-top: 1rem;
+
+}
+
+ .Analyte__chart_container{
+    margin-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+
+.dropdown {
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.dropdown h3 {
+    font-size: large;
+    padding-top: 0.2rem;
+    padding-bottom: 0.5rem;
+}
+
+
+.item {
+    padding-top: 0.1rem;
+    padding-top: 0.5rem;
+    width:50px;
+}
+
+ .LabTable__cotainer {
+    width: 600px;
+    padding-left: 5rem;
+    padding-right: 3rem;
+    display: flex;
+    justify-content: space-between;
+    /* height: 250px!important; */
+    
+}  
+
+.Indication__chart {
+    padding-left: 1rem;
+    margin-left: 1rem;
+    padding-right: 1rem;
+}
+
+.button__container {
+    display: flex;
+    
+}
+
+.subject__button {
+    margin-right: 1rem;
+    
+
+}
+
+.visit__button {
+    margin-right: 1rem;
+}
+/* @media screen and (max-width:990px) {
+
+    .Chart_Table_container {
+         
+        flex-direction: column;
+    }
+
+    .lab_options {
+        flex-direction: column;
+        margin-left: 0rem;
+        margin-top: 0rem;
+        padding-top: 0rem;
+    }
+
+    .Analyte__chart_container {
+        width:100px;
+    }
+
+    .LabTable__cotainer {
+        width: 500px;
+        padding-left: 0rem;
+        height: 250px!important;
+        
+    } 
+}  */
